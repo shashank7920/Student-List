@@ -10,7 +10,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 mongoose.connect(
-  "mongodb://john:mark@cluster0-shard-00-00-b2gf1.mongodb.net:27017,cluster0-shard-00-01-b2gf1.mongodb.net:27017,cluster0-shard-00-02-b2gf1.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority",
+  "",
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 const connection = mongoose.connection;
